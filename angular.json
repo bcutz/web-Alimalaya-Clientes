@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "web-clientes": {
@@ -23,7 +23,7 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
+            "styles": [        
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "web-clientes"
+    }
+  },
+  "defaultProject": "web-clientes",
+  "cli": {
+    "analytics": "5cecaae6-4c7a-4439-b9ae-d20a572d80f4"
+  }
 }
